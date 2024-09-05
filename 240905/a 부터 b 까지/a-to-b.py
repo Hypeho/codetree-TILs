@@ -1,10 +1,10 @@
 a,b = map(int, input().split())
 
-print(a, end=' ')
+i = a
 
-for i in range(a,b+1):
-    if i % 2 == 0 and i <=b :
+while i <= b:
+    print(i, end=' ')
+    if i % 2 == 0 :
         i += 3
-        print(i)
-    elif i % 2 != 0 and i <= b:
+    else:
         i *= 2
