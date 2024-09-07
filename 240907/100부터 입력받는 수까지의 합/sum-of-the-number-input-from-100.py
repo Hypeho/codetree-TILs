@@ -1,8 +1,8 @@
 n = int(input())
 
-sum = 0
+s = 0
 
 for i in range(n,101):
-    sum += i
+    s += i
 
-print(sum)
+print(s)
